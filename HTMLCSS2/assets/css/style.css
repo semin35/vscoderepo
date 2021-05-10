@@ -1,0 +1,32 @@
+*{
+    text-align: center;
+}
+h1{
+    color: red;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 30px;
+}
+/* solid,dashed,double olabilir tablo kenarliklari */
+.tablo{
+border: 5px solid gray;
+border-collapse: collapse;
+width: 60%;
+margin-left: auto; 
+margin-right: auto;
+/* sol ve sagdan auto bosluk koyarak nesneler ortaya hizlanir */
+}
+/* birden fazla attribute de ayni stillendirme 
+yapilacaksa virgul ile ayrilarak yazilabilir */
+th,
+td{
+    border: 2px solid gray;
+}
+th{
+    background-color: greenyellow;
+}
+tr:hover {
+    background-color: pink;
+}
+tr:nth-child(even){
+    background-color: skyblue;
+}

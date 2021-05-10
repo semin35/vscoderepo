@@ -1,0 +1,49 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML|Tablo Ekle|CSS Inline</title>
+    <style>
+        /* bu alan css kodlari icerir. Css selectorler ile istenilen 
+        HTML elemanina stillendirme yapilabilir.*/
+        /* style etiketi ile yapilan sadece bu dosya icin gecerli olur. 
+        eger tum proje icin global bir bicimlendirme istersek harici bir .CSS dosyasi olusturmak gerekir
+        ve bu dosyayi HTML e import etmek gerekir.*/
+        *{
+            text-align: center;
+        }
+        h1{
+            color: green;
+            font: size 25px; ;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            text-align: center;
+            margin-top: 50px;
+
+        }
+        p{
+            color: blueviolet;
+        }
+        #p1{
+            color: deeppink;
+        }
+        .p2{
+            color: greenyellow;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: 23;
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+    <h1>Tablo Ekleme</h1>
+    <h1>CSS stillendirme</h1>
+    <!-- id bir CSS selectordur ve tek element stillendirilecek ise
+    kullanmak daha mantiklidir.id ye erisim icin # kullanilir -->
+    <p id="p1-yazi">bu bir paragraftir</p>
+    <!-- class selectoru ise grup stillendirmesi icin kullanilir
+     -->
+    <p class="p2">bu da baska bir paragraftir</p>
+    <p class="p2">CSS HTML e gore daha fazla detay icermektedir.</p>
+</body>
+</html>
